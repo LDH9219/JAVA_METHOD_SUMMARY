@@ -4,106 +4,106 @@
 
 # 정리된 메서드 
 ## Arrays.METHOD
-Arrays.asList()
-Arrays.sort(String[] a, Comparator<? super String> c)
+Arrays.asList()<br>
+Arrays.sort(String[] a, Comparator<? super String> c)<br>
 
 ## String.METHOD
-String.split(String regex)
-String.isBlank()
-String.replace(CharSequence target, CharSequence replacement)
-String.replaceAll(String regex, String replacement)
-String.substring(int beginIndex, int endIndex)
-String.valueOf(char c)
-String.toCharArray()
-String.repeat(int count)
-String.trim()
-String.strip()
-String.indent(int n)
-String.indexOf(String str)
-String.join(CharSequence delimiter, CharSequence... elements)
+String.split(String regex)<br>
+String.isBlank()<br>
+String.replace(CharSequence target, CharSequence replacement)<br>
+String.replaceAll(String regex, String replacement)<br>
+String.substring(int beginIndex, int endIndex)<br>
+String.valueOf(char c)<br>
+String.toCharArray()<br>
+String.repeat(int count)<br>
+String.trim()<br>
+String.strip()<br>
+String.indent(int n)<br>
+String.indexOf(String str)<br>
+String.join(CharSequence delimiter, CharSequence... elements)<br>
 
 ## StringBuilder.METHOD
-StringBuilder.reverse()
-StringBuilder.indexOf(String str)
-StringBuilder.append(CharSequence s)
-StringBuilder.append(String str)
+StringBuilder.reverse()<br>
+StringBuilder.indexOf(String str)<br>
+StringBuilder.append(CharSequence s)<br>
+StringBuilder.append(String str)<br>
 
 ## StringJoiner.METHOD
-StringJoiner.add(CharSequence newElement)
+StringJoiner.add(CharSequence newElement)<br>
 
 ## Integer.METHOD
-Integer.valueOf(String s)
-Integer.parseInt(String s)
-Integer.compare(int x, int y)
-Integer.min(int a, int b)
-Integer.max(int a, int b)
-Integer.parseUnsignedInt(String s)
-Integer.toUnsignedLong(int x)
-Integer.compareUnsigned(int x, int y)
-Integer.remainderUnsigned(int dividend, int divisor)
-Integer.divideUnsigned(int dividend, int divisor)
+Integer.valueOf(String s)<br>
+Integer.parseInt(String s)<br>
+Integer.compare(int x, int y)<br>
+Integer.min(int a, int b)<br>
+Integer.max(int a, int b)<br>
+Integer.parseUnsignedInt(String s)<br>
+Integer.toUnsignedLong(int x)<br>
+Integer.compareUnsigned(int x, int y)<br>
+Integer.remainderUnsigned(int dividend, int divisor)<br>
+Integer.divideUnsigned(int dividend, int divisor)<br>
 
 ## BigInteger.METHOD
-BigInteger.longValue()
-BigInteger.intValue()
-BigInteger.longValueExact()
-BigInteger.intValueExact()
-BigInteger.shortValueExact()
-BigInteger.byteValueExact()
+BigInteger.longValue()<br>
+BigInteger.intValue()<br>
+BigInteger.longValueExact()<br>
+BigInteger.intValueExact()<br>
+BigInteger.shortValueExact()<br>
+BigInteger.byteValueExact()<br>
 
 ## Map.METHOD
 Map.compute(Character key, BiFunction<? super Character, ? super Integer, ? extends Integer> remappingFunction)
 
 ## Math.METHOD
-Math.toIntExact(long value)
-Math.floorDiv(int x, int y)
-Math.floorMod(int x, int y)
-Math.nextUp(double d)
-Math.nextDown(double d)
-Math.fma(double a, double b, double c)
-Math.min(int a, int b)
-Math.max(int a, int b)
-Math.addExact(int x, int y)
+Math.toIntExact(long value)<br>
+Math.floorDiv(int x, int y)<br>
+Math.floorMod(int x, int y)<br>
+Math.nextUp(double d)<br>
+Math.nextDown(double d)<br>
+Math.fma(double a, double b, double c)<br>
+Math.min(int a, int b)<br>
+Math.max(int a, int b)<br>
+Math.addExact(int x, int y)<br>
 
 ## Boolean.METHOD
-Boolean.logicalAnd(boolean a, boolean b)
-Boolean.logicalOr(boolean a, boolean b)
-Boolean.logicalXor(boolean a, boolean b)
+Boolean.logicalAnd(boolean a, boolean b)<br>
+Boolean.logicalOr(boolean a, boolean b)<br>
+Boolean.logicalXor(boolean a, boolean b)<br>
 
 ## Character.METHOD
-Character.isDigit(char ch)
+Character.isDigit(char ch)<br>
 
 ## Set.METHOD
-Set.contains(Object o)
+Set.contains(Object o)<br>
 
 ## Number.METHOD
-Number.shortValue()
-Number.byteValue()
+Number.shortValue()<br>
+Number.byteValue()<br>
 
 ##Short.METHOD
-Short.toUnsignedInt(short x)
+Short.toUnsignedInt(short x)<br>
 
 ## Long.METHOD
-Long.parseLong(String s)
-Long.parseUnsignedLong(String s)
+Long.parseLong(String s)<br>
+Long.parseUnsignedLong(String s)<br>
 
 ## Float.METHOD
-Float.parseFloat(String s)
+Float.parseFloat(String s)<br>
 
 ## IntStream.METHOD
-IntStream.range(int startInclusive, int endExclusive)
+IntStream.range(int startInclusive, int endExclusive)<br>
 
 ## Enum.METHOD
-Enum.equals(Object other)
+Enum.equals(Object other)<br>
 
 ## Comparator.METHOD
-Comparator.comparingInt(ToIntFunction<? super String> keyExtractor)
+Comparator.comparingInt(ToIntFunction<? super String> keyExtractor)<br>
 
 ## System.METHOD
-System.lineSeparator()
+System.lineSeparator()<br>
 
 ## Stream.METHOD
-Stream.forEachOrdered(Consumer<? super String> action)
+Stream.forEachOrdered(Consumer<? super String> action)<br>
 
 ## BiFunction.METHOD
-BiFunction.apply(Integer t, Integer u)
+BiFunction.apply(Integer t, Integer u)<br>

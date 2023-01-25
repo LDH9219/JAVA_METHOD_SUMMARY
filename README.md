@@ -80,7 +80,7 @@
 > Number.shortValue()    
 > Number.byteValue()    
 
-##Short.METHOD
+## Short.METHOD
 > Short.toUnsignedInt(short x)    
 
 ## Long.METHOD

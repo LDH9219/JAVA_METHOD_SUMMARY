@@ -107,6 +107,3 @@
 
 ## BiFunction.METHOD
 > BiFunction.apply(Integer t, Integer u)    
-    
-    
-[source](https://twitter.com/NoahhNim/status/1614474455119429632?s=20&t=JxagvwcFuLSsR1pkoL9Zzg,  "source")
